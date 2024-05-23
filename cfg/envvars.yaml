@@ -1,0 +1,57 @@
+environment_variables:
+  ASPNETCORE_ENVIRONMENT: $(ENV)
+  ASPNETCORE_URLS: "http://*:8080"
+
+  Serilog__MinimumLevel: "Information"
+
+  DataDog__StatsD__HostName: $(DD_AGENT_HOST)
+  DataDog__StatsD__Prefix: fincrime.email_intelligence
+  DataDog__StatsD__IsEnabled: true
+  DD_LOG_LEVEL: debug
+
+  # Global log configuration
+  Logging__IncludeScopes: "true"
+  Serilog__MinimumLevel__Default: "Information"
+
+  # Microsoft log level overrides
+  Serilog__MinimumLevel__Override__System: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.Hosting.Lifetime: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Mvc: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Authentication: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Identity: "Warning"
+  Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Session.SessionMiddleware: "Error"
+
+  # Serilog sinks (outputs) and configuration
+  Serilog__WriteTo__0__Name: "Console"
+  Serilog__WriteTo__0__Args__formatter: "Serilog.Formatting.Json.JsonFormatter"
+
+  # Serilog log enriching - to be reviewed with Production Support on what is useful and what can be dropped
+  Serilog__Enrich__0: "FromLogContext"
+  Serilog__Enrich__1: "WithMachineName"
+  Serilog__Enrich__2: "WithThreadId"
+  Serilog__Enrich__3: "WithExceptionDetails"
+
+  # Email Intelligence Subscriber
+  EmailIntelligence__EmailIntelligenceSubscriberConfiguration__Enable: true
+  EmailIntelligence__EmailIntelligenceSubscriberConfiguration__ProjectId: $(PROJECT)
+  EmailIntelligence__EmailIntelligenceSubscriberConfiguration__SubscriptionId: system.financial-crime.internal-email.scan-1.0.$(ENV).fc-email-intelligence
+
+  # LexisNexis
+  EmailIntelligence__LexisNexisConfiguration__Enable: true
+  EmailIntelligence__LexisNexisConfiguration__OutputFormat: "json"
+  EmailIntelligence__LexisNexisConfiguration__BaseAddress: "https://h-api.online-metrix.net"
+  EmailIntelligence__LexisNexisConfiguration__AttributeQuery: "api/attribute-query"
+  EmailIntelligence__LexisNexisConfiguration__SendPIIData: true
+  EmailIntelligence__LexisNexisConfiguration__PolicyName: "qt_verification"
+  EmailIntelligence__LexisNexisConfiguration__ServiceType: "basic"
+  EmailIntelligence__LexisNexisConfiguration__Resilience__RetryCount: 1
+  EmailIntelligence__LexisNexisConfiguration__Resilience__ConsecutiveExceptionsAllowedBeforeBreaking: 3
+  EmailIntelligence__LexisNexisConfiguration__Resilience__DurationOfBreakInSeconds: 15
+
+  # Email Intelligence Publisher
+  EmailIntelligence__EmailIntelligencePublisherConfiguration__Enable: true
+  EmailIntelligence__EmailIntelligencePublisherConfiguration__MaximumMessagePublishAttempts: 10
+  EmailIntelligence__EmailIntelligencePublisherConfiguration__ProjectId: $(PROJECT)
+  EmailIntelligence__EmailIntelligencePublisherConfiguration__TopicId: system.financial-crime.internal-scan-result-status.updated-1.0.$(ENV)

@@ -1,0 +1,12 @@
+environment_variables:
+
+  # PubSub
+  EmailIntelligence__EmailIntelligenceSubscriberConfiguration__SubscriptionId: system.financial-crime.internal-email.scan-1.0.fc-email-intelligence
+
+  EmailIntelligence__EmailIntelligencePublisherConfiguration__TopicId: system.financial-crime.internal-scan-result-status.updated-1.0
+
+  # LexisNexis
+  EmailIntelligence__LexisNexisConfiguration__BaseAddress: "https://h-api.online-metrix.net"
+  EmailIntelligence__LexisNexisConfiguration__Resilience__RetryCount: 3
+  EmailIntelligence__LexisNexisConfiguration__Resilience__ConsecutiveExceptionsAllowedBeforeBreaking: 15
+  EmailIntelligence__LexisNexisConfiguration__Resilience__DurationOfBreakInSeconds: 10

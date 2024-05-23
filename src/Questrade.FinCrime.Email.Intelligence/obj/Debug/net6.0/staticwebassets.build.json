@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7PkHvQ5WwLlBR7WiJS1kKWtw+CZdlz9sTh0EhkY7Ftg=",
+  "Source": "Questrade.FinCrime.Email.Intelligence",
+  "BasePath": "_content/Questrade.FinCrime.Email.Intelligence",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

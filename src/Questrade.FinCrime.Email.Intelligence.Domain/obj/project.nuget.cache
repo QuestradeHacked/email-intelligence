@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jTZ9wIDV8C/VIZxICnEl6dJiVJCOjUyORLlJh454D5XSLtKp+VY8JOUjwC0W1NX+mBwjtSH9InyDS0evq/0p4A==",
+  "success": true,
+  "projectFilePath": "/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/Questrade.FinCrime.Email.Intelligence.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/015756/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/015756/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/015756/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/015756/.nuget/packages/system.text.json/6.0.2/system.text.json.6.0.2.nupkg.sha512",
+    "/Users/015756/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/015756/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

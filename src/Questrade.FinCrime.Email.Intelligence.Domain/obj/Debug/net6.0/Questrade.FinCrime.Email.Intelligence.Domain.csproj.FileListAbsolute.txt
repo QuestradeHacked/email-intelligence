@@ -1,0 +1,14 @@
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/bin/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.deps.json
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/bin/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.dll
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/bin/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.pdb
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/bin/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.xml
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.csproj.AssemblyReference.cache
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.AssemblyInfoInputs.cache
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.AssemblyInfo.cs
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.csproj.CoreCompileInputs.cache
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.dll
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/refint/Questrade.FinCrime.Email.Intelligence.Domain.dll
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.xml
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/Questrade.FinCrime.Email.Intelligence.Domain.pdb
+/Users/015756/Documents/Projects/email-intelligence/src/Questrade.FinCrime.Email.Intelligence.Domain/obj/Debug/net6.0/ref/Questrade.FinCrime.Email.Intelligence.Domain.dll

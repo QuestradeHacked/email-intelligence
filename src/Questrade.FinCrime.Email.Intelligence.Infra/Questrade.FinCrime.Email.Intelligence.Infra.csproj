@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Questrade.FinCrime.Email.Intelligence.Domain\Questrade.FinCrime.Email.Intelligence.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DogStatsD-CSharp-Client" Version="7.0.1" />
+        <PackageReference Include="MediatR" Version="10.0.1" />
+        <PackageReference Include="Polly" Version="7.2.3" />
+        <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+      <PackageReference Include="Questrade.Library.PubSubClientHelper" Version="3.0.0" />
+      <PackageReference Include="SerilogTimings" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>

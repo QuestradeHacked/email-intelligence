@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Questrade.FinCrime.Email.Intelligence.Domain\Questrade.FinCrime.Email.Intelligence.Domain.csproj" />
+        <ProjectReference Include="..\Questrade.FinCrime.Email.Intelligence.Infra\Questrade.FinCrime.Email.Intelligence.Infra.csproj" />
+    </ItemGroup>
+
+</Project>

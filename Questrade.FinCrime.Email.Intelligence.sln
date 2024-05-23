@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6522DD8C-3404-4B9B-8471-4B5952F3BAB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{4D9B1281-6674-4F34-B596-68472249FD92}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{60D619A5-DFE6-44B3-8ADB-6C00113F46E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{BB8B5CE7-AEDD-4ED5-A812-9522DAE508E0}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev-environment", "dev-environment", "{73FC8318-432F-444C-967D-A578C2187C66}"
+	ProjectSection(SolutionItems) = preProject
+		docker\dev-environment\.env = docker\dev-environment\.env
+		docker\dev-environment\docker-compose.yml = docker\dev-environment\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cfg", "cfg", "{5BA8EB18-39D4-403D-992E-B861DCF40983}"
+	ProjectSection(SolutionItems) = preProject
+		cfg\envvars-prod.yaml = cfg\envvars-prod.yaml
+		cfg\envvars-sit.yaml = cfg\envvars-sit.yaml
+		cfg\envvars-uat.yaml = cfg\envvars-uat.yaml
+		cfg\envvars.yaml = cfg\envvars.yaml
+		cfg\paas.config.yaml = cfg\paas.config.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{26A174E7-BB86-44EE-9410-778B24ECB01E}"
+	ProjectSection(SolutionItems) = preProject
+		productionreadiness.md = productionreadiness.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "editorconfig", "editorconfig", "{F6EDC7E1-4316-4775-9A98-2C594BF2BA3F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gitlab", "gitlab", "{84C848A3-301E-4188-AF5E-A40B804A12CC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{FE32BD55-7477-4E28-9360-3C8D15291DD1}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C0A87069-7B5A-4721-B99C-3A6FFC5D5792}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence", "src\Questrade.FinCrime.Email.Intelligence\Questrade.FinCrime.Email.Intelligence.csproj", "{217FFA35-9C0D-449F-B970-336911400301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8DC5961-A980-4511-A74A-D6CFFD9BC4BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence.Domain", "src\Questrade.FinCrime.Email.Intelligence.Domain\Questrade.FinCrime.Email.Intelligence.Domain.csproj", "{DC7C8FF5-E024-459B-92BD-1963AA481135}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence.Infra", "src\Questrade.FinCrime.Email.Intelligence.Infra\Questrade.FinCrime.Email.Intelligence.Infra.csproj", "{B557260D-7393-43E9-98C3-C4604996C9BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence.Application", "src\Questrade.FinCrime.Email.Intelligence.Application\Questrade.FinCrime.Email.Intelligence.Application.csproj", "{8597E4CB-798B-42A9-9176-30D3C673D691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence.Tests.Unit", "src\Questrade.FinCrime.Email.Intelligence.Tests.Unit\Questrade.FinCrime.Email.Intelligence.Tests.Unit.csproj", "{C6AA6172-C88F-4D3A-BFCB-94B3234198FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questrade.FinCrime.Email.Intelligence.Tests.Integration", "src\Questrade.FinCrime.Email.Intelligence.Tests.Integration\Questrade.FinCrime.Email.Intelligence.Tests.Integration.csproj", "{748A3C32-635A-4670-AE64-4EC7DE6FC87C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "coverlet", "coverlet", "{2203755C-8768-4C60-8011-5DABECC8DE54}"
+	ProjectSection(SolutionItems) = preProject
+		coverlet.runsettings = coverlet.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217FFA35-9C0D-449F-B970-336911400301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217FFA35-9C0D-449F-B970-336911400301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217FFA35-9C0D-449F-B970-336911400301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217FFA35-9C0D-449F-B970-336911400301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7C8FF5-E024-459B-92BD-1963AA481135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7C8FF5-E024-459B-92BD-1963AA481135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7C8FF5-E024-459B-92BD-1963AA481135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7C8FF5-E024-459B-92BD-1963AA481135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B557260D-7393-43E9-98C3-C4604996C9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B557260D-7393-43E9-98C3-C4604996C9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B557260D-7393-43E9-98C3-C4604996C9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B557260D-7393-43E9-98C3-C4604996C9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8597E4CB-798B-42A9-9176-30D3C673D691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8597E4CB-798B-42A9-9176-30D3C673D691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8597E4CB-798B-42A9-9176-30D3C673D691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8597E4CB-798B-42A9-9176-30D3C673D691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AA6172-C88F-4D3A-BFCB-94B3234198FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AA6172-C88F-4D3A-BFCB-94B3234198FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AA6172-C88F-4D3A-BFCB-94B3234198FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AA6172-C88F-4D3A-BFCB-94B3234198FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748A3C32-635A-4670-AE64-4EC7DE6FC87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748A3C32-635A-4670-AE64-4EC7DE6FC87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748A3C32-635A-4670-AE64-4EC7DE6FC87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748A3C32-635A-4670-AE64-4EC7DE6FC87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D9B1281-6674-4F34-B596-68472249FD92} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{60D619A5-DFE6-44B3-8ADB-6C00113F46E1} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{BB8B5CE7-AEDD-4ED5-A812-9522DAE508E0} = {60D619A5-DFE6-44B3-8ADB-6C00113F46E1}
+		{73FC8318-432F-444C-967D-A578C2187C66} = {60D619A5-DFE6-44B3-8ADB-6C00113F46E1}
+		{5BA8EB18-39D4-403D-992E-B861DCF40983} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{26A174E7-BB86-44EE-9410-778B24ECB01E} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{F6EDC7E1-4316-4775-9A98-2C594BF2BA3F} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{84C848A3-301E-4188-AF5E-A40B804A12CC} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{FE32BD55-7477-4E28-9360-3C8D15291DD1} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+		{217FFA35-9C0D-449F-B970-336911400301} = {C0A87069-7B5A-4721-B99C-3A6FFC5D5792}
+		{DC7C8FF5-E024-459B-92BD-1963AA481135} = {C0A87069-7B5A-4721-B99C-3A6FFC5D5792}
+		{B557260D-7393-43E9-98C3-C4604996C9BB} = {C0A87069-7B5A-4721-B99C-3A6FFC5D5792}
+		{8597E4CB-798B-42A9-9176-30D3C673D691} = {C0A87069-7B5A-4721-B99C-3A6FFC5D5792}
+		{C6AA6172-C88F-4D3A-BFCB-94B3234198FD} = {C8DC5961-A980-4511-A74A-D6CFFD9BC4BD}
+		{748A3C32-635A-4670-AE64-4EC7DE6FC87C} = {C8DC5961-A980-4511-A74A-D6CFFD9BC4BD}
+		{2203755C-8768-4C60-8011-5DABECC8DE54} = {6522DD8C-3404-4B9B-8471-4B5952F3BAB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC4A4DBE-57DD-4636-850C-F9ABB61582D9}
+	EndGlobalSection
+EndGlobal
